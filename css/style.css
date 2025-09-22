@@ -20563,3 +20563,16 @@ footer .footer-navbar .nav-item:last-child a {
 .footer-demo img {
   max-height: 55px !important;
 }
+
+
+@media screen and (max-width: 600px ) {
+.service_img_desk{
+display: none;
+}
+}
+
+@media screen and (min-width: 1000px ) {
+.service_img_mobi{
+  display: none;
+}
+}
