@@ -7,6 +7,7 @@
     <meta name="author" content="PropAdvisor" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="description" content="We Bring You Home" />
+    <base href="/" />
     <!-- favicon icon -->
     <link rel="shortcut icon" href="img/icons/favicon.png" />
     <link rel="apple-touch-icon" href="img/icons/favicon.png" />
@@ -27,13 +28,13 @@
   <body
     data-mobile-nav-trigger-alignment="right"
     data-mobile-nav-style="modern"
-    data-mobile-nav-bg-color="#000">
+    data-mobile-nav-bg-color="#fff">
     <!-- start header -->
     <header>
       <!-- start navigation -->
       <nav
-        class="navbar navbar-expand-lg header-dark bg-black header-reverse"
-        data-header-hover="dark">
+        class="navbar navbar-expand-lg header-light bg-white header-reverse"
+        data-header-hover="light">
         <div class="container-fluid">
           <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
             <a class="navbar-brand" href="index.html">
@@ -125,9 +126,9 @@
                 <li class="nav-item">
                   <a href="buyers.html" class="nav-link">Buyers</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a href="projects.html" class="nav-link">Projects</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a href="contact.html" class="nav-link">Contact</a>
                 </li>
@@ -161,6 +162,7 @@
       <!-- end navigation -->
     </header>
     <!-- end header -->
+
     <!-- start banner slider -->
     <section class="p-0 top-space-margin position-relative overflow-hidden">
       <div
@@ -198,7 +200,7 @@
                     </div>
                     <div class="d-inline-block mt-45px sm-mt-30px">
                       <a
-                        href="developers.html"
+                        href="developers.php"
                         class="btn btn-extra-large btn-white btn-rounded btn-switch-text btn-box-shadow d-inline-block me-20px sm-me-10px align-middle left-icon">
                         <span>
                           <span
@@ -267,7 +269,7 @@
                     </div>
                     <div class="d-inline-block mt-45px sm-mt-30px">
                       <a
-                        href="buyers.html"
+                        href="buyers.php"
                         class="btn btn-extra-large btn-white btn-rounded btn-switch-text btn-box-shadow d-inline-block me-20px sm-me-10px align-middle left-icon">
                         <span>
                           <span
@@ -481,7 +483,7 @@
     </section>
     <!-- end about section -->
 
-    <!-- start about section -->
+    <!-- start journey heading section -->
     <section class="pt-50px">
       <div class="container text-center">
         <div class="mb-10px">
@@ -497,9 +499,9 @@
         </h4>
       </div>
     </section>
-    <!-- end about section -->
+    <!-- end journey heading section -->
 
-    <!-- start section -->
+    <!-- start journey section -->
     <section
       class="pt-0 border-top border-color-extra-medium-gray mt-0 md-mt-0 sm-border-top-0">
       <div class="container">
@@ -577,9 +579,9 @@
         </div>
       </div>
     </section>
+    <!-- end journey section -->
 
-    <!-- end section -->
-    <!-- start section -->
+    <!-- start marquee text section -->
     <section class="overflow-hidden position-relative pt-0 lg-pb-0">
       <div class="container-fluid">
         <div class="row position-relative">
@@ -615,8 +617,9 @@
         </div>
       </div>
     </section>
-    <!-- end section -->
-    <!-- start section -->
+    <!-- end marquee text section -->
+
+    <!-- start impact section -->
     <section>
       <div class="container">
         <div class="row justify-content-center align-items-center sm-pb-9">
@@ -725,9 +728,9 @@
         </div>
       </div>
     </section>
-    <!-- end section -->
+    <!-- end  impact section -->
 
-    <!-- start section -->
+    <!-- start experience section -->
     <section class="overflow-hidden">
       <div class="container">
         <div class="row mb-6 sm-mb-50px">
@@ -735,7 +738,7 @@
             class="col-md-12 text-center text-md-start"
             data-anime='{"opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
             <div
-              class="fs-80 xxl-fs-80 sm-fs-60 fw-600 text-dark-gray alt-font ls-minus-6px sm-ls-minus-2px"
+              class="fs-140 xxl-fs-100 sm-fs-60 fw-600 text-dark-gray alt-font ls-minus-6px sm-ls-minus-2px"
               data-bottom-top="transform: translate3d(-50px, 0px, 0px);"
               data-top-bottom="transform: translate3d(50px, 0px, 0px);">
               Experience In
@@ -763,7 +766,7 @@
                 class="col-lg-5 col-md-6 text-center text-md-start"
                 data-anime='{"opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div
-                  class="fs-80 xxl-fs-80 sm-fs-60 fw-600 text-dark-gray alt-font ls-minus-6px sm-ls-minus-2px">
+                  class="fs-140 xxl-fs-100 sm-fs-60 fw-600 text-dark-gray alt-font ls-minus-6px sm-ls-minus-2px">
                   Real Estate
                 </div>
               </div>
@@ -853,9 +856,9 @@
         </div>
       </div>
     </section>
-    <!-- end section -->
+    <!-- end experience section -->
 
-    <!-- start section -->
+    <!-- start featured projects section -->
     <section class="stack-box py-0 z-index-99">
       <div class="stack-box-contain">
         <!-- start stack item -->
@@ -888,24 +891,23 @@
                       class="w-25px h-1px d-inline-block bg-base-color me-5px align-middle"></span>
                     <span
                       class="text-gradient-base-color fs-15 alt-font fw-700 ls-05px text-uppercase d-inline-block align-middle"
-                      >Featured Projects</span
+                      >Top Case Studies</span
                     >
                   </div>
-                  <h1
+                  <h2
                     class="text-dark-gray alt-font fw-600 ls-minus-4px mb-25px">
-                    Delta Prestige
-                  </h1>
+                    Mid-Income Housing Project in Ulwe
+                  </h2>
                   <p class="w-95 md-w-100 mb-35px">
-                    Delta Prestige by Balaji Group offers luxury living in
-                    Panvel with a Ground + 14 tower featuring spacious 2, 3, and
-                    5 BHKs. Located near Khandeshwar Station, it ensures
-                    excellent connectivity to highways, metro lines, and the
-                    Navi Mumbai-Pune Hyperloop. Built on a 6000 sq. mt. CIDCO
-                    plot, it boasts valet parking, smart access, a car spa, EV
-                    charging, concierge services, and 3-tier security. With top
-                    schools, hospitals, malls, and business hubs nearby, Delta
-                    Prestige blends luxury, convenience, and future-ready
-                    infrastructure.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Minima facere, itaque laudantium dolorem rem nostrum
+                    provident voluptates sapiente vero pariatur, adipisci,
+                    placeat mollitia temporibus! Sint repellat fugit placeat
+                    architecto perferendis dicta dignissimos, natus libero atque
+                    neque aut blanditiis quas eligendi explicabo debitis
+                    doloribus praesentium saepe. Obcaecati tempora dolorum
+                    molestias sint debitis ratione accusamus, quis tempore id
+                    voluptatem praesentium pariatur fugit molestiae iste enim
                   </p>
                   <a
                     href="projects.html"
@@ -955,22 +957,21 @@
                       class="w-25px h-1px d-inline-block bg-base-color me-5px align-middle"></span>
                     <span
                       class="text-gradient-base-color fs-15 alt-font fw-700 ls-05px text-uppercase d-inline-block align-middle"
-                      >Featured Projects</span
+                      >Top Case Studies</span
                     >
                   </div>
-                  <h1
+                  <h2
                     class="text-dark-gray alt-font fw-600 ls-minus-4px mb-25px">
-                    Invicta Ulwe
-                  </h1>
+                    Pushpak Nagar Project
+                  </h2>
                   <p class="w-95 md-w-100 mb-35px">
-                    Introducing the Cidco Tripartite Plot G+12 Multistorey
-                    Building—the largest project in Ulwe Sec 26, offering a
-                    perfect blend of luxury and convenience. This landmark
-                    residential and commercial tower features 1, 2, and 3 BHK
-                    apartments along with premium shops, all designed to deliver
-                    peace, prosperity, and protection. Residents will enjoy a
-                    grand AC entrance lobby and world-class amenities, making it
-                    a distinguished address in Ulwe.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Soluta blanditiis cum tenetur omnis ex illo inventore
+                    dignissimos placeat amet, esse minima voluptate ratione ut
+                    assumenda debitis, nostrum itaque? Nesciunt quidem aliquid,
+                    et corrupti ratione quaerat adipisci fugiat. Dolor ut iusto,
+                    architecto, porro corporis dolorem aliquam sapiente
+                    doloribus ad mollitia minus.
                   </p>
                   <a
                     href=""
@@ -1020,22 +1021,20 @@
                       class="w-25px h-1px d-inline-block bg-base-color me-5px align-middle"></span>
                     <span
                       class="text-gradient-base-color fs-15 alt-font fw-700 ls-05px text-uppercase d-inline-block align-middle"
-                      >Featured Projects</span
+                      >Top Case Studies</span
                     >
                   </div>
-                  <h1
+                  <h2
                     class="text-dark-gray alt-font fw-600 ls-minus-4px mb-25px">
-                    Invicta EClat
-                  </h1>
+                    Premium 3BHK Towers in Kharghar
+                  </h2>
                   <p class="w-95 md-w-100 mb-35px">
-                    Invicta Eclat is offering property for sale in Pushpak
-                    Nagar. It is a Under Construction project by Invicta Eclat
-                    Group. Invicta Eclat is located in Pushpak Nagar, There are
-                    multiple amenities for residents at Invicta Eclat which
-                    includes Power Backup. The property has Fire Sprinklers. Own
-                    a home in Invicta Eclat today!. Invicta Eclat is Best
-                    Residential Properties in Pushpak Nagar. 1 & 2BHK Flats for
-                    sale in Invicta Eclat Pushpak Nagar also avialable shops.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum, tempore. Sit cum illum animi ex. Doloribus omnis
+                    sequi minus tenetur fugit non possimus nesciunt. Iusto,
+                    fugit? Dolorem quaerat quod ut, id sed odit est animi veniam
+                    cumque nihil doloremque eveniet accusantium quisquam, unde
+                    omnis suscipit tempora quam quas explicabo exercitationem!
                   </p>
                   <a
                     href=""
@@ -1057,10 +1056,9 @@
         <!-- end stack item -->
       </div>
     </section>
-    <!-- end section -->
-    <!-- section removed -->
+    <!-- end featured projects section -->
 
-    <!-- start section -->
+    <!-- start testimonial section -->
     <section class="big-section position-relative pb-0 mt-70px">
       <div
         class="background-position-center-top background-no-repeat position-absolute h-100 w-100 left-0px top-0px"
@@ -1190,9 +1188,9 @@
         </div>
       </div>
     </section>
-    <!-- end section -->
+    <!-- end testimonial section -->
 
-    <!-- start about section -->
+    <!-- start clients logo title section -->
     <section class="py-0">
       <div class="container text-center">
         <div class="mb-10px">
@@ -1208,8 +1206,9 @@
         </h4>
       </div>
     </section>
-    <!-- end about section -->
-    <!-- start section -->
+    <!-- end clients logo title section -->
+
+    <!-- start clients logo section -->
     <section class="position-relative overflow-hidden py-0 pb-70px">
       <div class="bg-overlay-light"></div>
 
@@ -1627,9 +1626,9 @@
         </div>
       </div>
     </section>
-    <!-- end section -->
+    <!-- end clients logo section -->
 
-    <!-- start section -->
+    <!-- start cta section -->
     <section
       data-parallax-background-ratio="0.5"
       style="background-image: url('img/cta/cta_bg_sky_scapper.jpg')">
@@ -1663,7 +1662,7 @@
         </div>
       </div>
     </section>
-    <!-- end section -->
+    <!-- end cta section -->
 
     <!-- start footer -->
     <footer
@@ -1814,6 +1813,7 @@
       </div>
     </footer>
     <!-- end footer -->
+
     <!-- start scroll progress -->
     <div class="scroll-progress d-none d-xxl-block">
       <a href="#" class="scroll-top" aria-label="scroll">
@@ -1822,6 +1822,7 @@
       </a>
     </div>
     <!-- end scroll progress -->
+
     <!-- javascript libraries -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/vendors.min.js"></script>
