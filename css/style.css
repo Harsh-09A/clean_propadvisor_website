@@ -70,6 +70,7 @@ Table of contents
   --seal-brown: #0e0708;
   --Wasabi: #8ea63a;
   --prop-theme: #deb269;
+  --prop-theme-2: #d1d5db;
 }
 /* ===================================
     03. Reset
@@ -20564,15 +20565,14 @@ footer .footer-navbar .nav-item:last-child a {
   max-height: 55px !important;
 }
 
+@media screen and (max-width: 600px) {
+  .service_img_desk {
+    display: none;
+  }
+}
 
-@media screen and (max-width: 600px ) {
-.service_img_desk{
-display: none;
-}
-}
-
-@media screen and (min-width: 1000px ) {
-.service_img_mobi{
-  display: none;
-}
+@media screen and (min-width: 1000px) {
+  .service_img_mobi {
+    display: none;
+  }
 }
