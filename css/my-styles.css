@@ -78,3 +78,45 @@ a.text-gold:hover {
     padding-right: 20px;
   }
 }
+
+/* temp */
+.bg-theme-2 {
+  background-color: var(--prop-theme-2);
+}
+.counter-cards {
+  background-color: var(--prop-theme-2);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.custom-counter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* adjust spacing */
+}
+
+.custom-counter-grid > .feature-box {
+  flex: 1 1 calc(25% - 20px); /* 4 in a row, minus gap */
+  box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+  .custom-counter-grid > .feature-box {
+    flex: 1 1 calc(50% - 20px); /* 2 in a row on tablets */
+  }
+}
+
+@media (max-width: 575px) {
+  .custom-counter-grid > .feature-box {
+    flex: 1 1 100%; /* 1 per row on mobile */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .custom-counter-grid {
+    gap: 0px;
+  }
+}
