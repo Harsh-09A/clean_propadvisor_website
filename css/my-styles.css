@@ -79,10 +79,7 @@ a.text-gold:hover {
   }
 }
 
-/* temp */
-.bg-theme-2 {
-  background-color: var(--prop-theme-2);
-}
+/* others */
 .counter-cards {
   background-color: var(--prop-theme-2);
   border-radius: 25px;
@@ -119,4 +116,30 @@ a.text-gold:hover {
   .custom-counter-grid {
     gap: 0px;
   }
+}
+
+/* temp */
+.bg-theme-2 {
+  background-color: #f9e8fb;
+}
+.bg-theme-3 {
+  background-color: #def9e9;
+}
+.bg-theme-4 {
+  background-color: #fef1e1;
+}
+.bg-theme-5 {
+  background-color: #e2f5fe;
+}
+.bg-theme-6 {
+  background-color: var(--prop-theme);
+}
+.bg-theme-7 {
+  background-color: #deb269;
+}
+.bg-theme-8 {
+  background-color: #000000;
+}
+.bg-theme-9 {
+  background-color: #d7ccc8;
 }

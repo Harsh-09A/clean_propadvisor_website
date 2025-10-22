@@ -70,7 +70,25 @@ Table of contents
   --seal-brown: #0e0708;
   --Wasabi: #8ea63a;
   --prop-theme: #deb269;
+  --prop-theme: #4a788a;
   --prop-theme-2: #d1d5db;
+  --prop-theme-2: #f9e8fb;
+
+  /* 
+
+  #deb269
+  #f9e8fb
+  #def9e9
+  #fef1e1
+  #e2f5fe
+  #000000
+  #ffffff
+  #4a788a
+  
+
+
+
+  */
 }
 /* ===================================
     03. Reset
@@ -7787,9 +7805,9 @@ header.sticky .navbar.disable-fixed {
 .navbar {
   padding: 0;
 }
-.navbar .navbar-nav .nav-item > i {
+/* .navbar .navbar-nav .nav-item > i {
   display: none;
-}
+} */
 .navbar .navbar-nav .nav-item:hover .nav-link,
 .navbar .navbar-nav .nav-item.active .nav-link {
   opacity: 0.6;
@@ -11334,6 +11352,7 @@ blockquote footer {
 }
 .btn.btn-dark-gray {
   background-color: var(--dark-gray);
+  background-color: #4a788a;
   color: var(--white);
 }
 .btn.btn-dark-gray:hover,
@@ -11350,6 +11369,7 @@ blockquote footer {
 .btn.btn-black:active {
   background-color: transparent;
   border-color: var(--black);
+  border-color: #4a788a;
   color: var(--black);
 }
 .btn.btn-white {

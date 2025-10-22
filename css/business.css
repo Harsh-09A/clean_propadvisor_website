@@ -1,5 +1,5 @@
 /* accordion style 02 */
-.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu {
+/* .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu {
   background-color: var(--dark-gray);
 }
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
@@ -19,7 +19,7 @@
   li.active
   a {
   opacity: 0.5;
-}
+} */
 /* bg color */
 .bg-gradient-sherpa-blue-black {
   background-image: linear-gradient(
