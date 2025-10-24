@@ -71,6 +71,12 @@ a.text-gold:hover {
 .footer_text-white a {
   color: #fff;
 }
+.footer_text-white a:hover {
+  color: var(--prop-theme);
+}
+footer a:hover {
+  color: var(--prop-theme);
+}
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .home-slide-text {
@@ -142,4 +148,16 @@ a.text-gold:hover {
 }
 .bg-theme-9 {
   background-color: #d7ccc8;
+}
+
+/* .services-images::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+} */
+
+.impact_section .feature-box .feature-box-icon img {
+  height: 80px;
 }

@@ -11355,8 +11355,9 @@ blockquote footer {
   color: var(--base-color);
 }
 .btn.btn-dark-gray {
-  background-color: var(--dark-gray);
-  background-color: #4a788a;
+  /* background-color: var(--dark-gray);
+  background-color: #4a788a; */
+  background-color: var(--prop-theme);
   color: var(--white);
 }
 .btn.btn-dark-gray:hover,
