@@ -161,3 +161,30 @@ footer a:hover {
 .impact_section .feature-box .feature-box-icon img {
   height: 80px;
 }
+
+@media screen and (max-width: 600px) {
+  .home_slide_1 {
+    background-image: url("../img/home/home_mobile_slider_1.jpg") !important;
+  }
+  .home_slide_2 {
+    background-image: url("../img/home/home_mobile_slider_2.jpg") !important;
+  }
+  .home_slide_3 {
+    background-image: url("../img/home/home_mobile_slider_3.jpg") !important;
+  }
+  .home_slide_4 {
+    background-image: url("../img/home/home_mobile_slider_4.jpg") !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .home-slider-content {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .swiper-slide {
+    height: 100vh !important;
+  }
+}
