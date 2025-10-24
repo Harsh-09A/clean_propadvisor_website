@@ -51,7 +51,7 @@ a.text-gold:hover {
       a {
         color: var(--white);
         &:hover {
-          color: var(--base-color) !important;
+          color: var(--prop-theme) !important;
         }
       }
     }

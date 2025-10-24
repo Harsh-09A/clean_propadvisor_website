@@ -70,7 +70,7 @@ Table of contents
   --seal-brown: #0e0708;
   --Wasabi: #8ea63a;
   --prop-theme: #deb269;
-  --prop-theme: #4a788a;
+  /* --prop-theme: #4a788a; */
   --prop-theme-2: #d1d5db;
   --prop-theme-2: #f9e8fb;
 
@@ -85,7 +85,10 @@ Table of contents
   #ffffff
   #4a788a
   
-
+  #EEBDF3
+  #EAFBE8
+  #B08498
+  #A3C4B5
 
 
   */
@@ -1940,7 +1943,8 @@ textarea:focus,
 /* Swiper number pagination style 01 */
 .swiper-number-pagination-style-01 .swiper-number {
   text-align: left;
-  bottom: 70px;
+  /* bottom: 70px; */
+  bottom: 35px;
 }
 .swiper-number-pagination-style-01 .swiper-number .swiper-pagination-bullet {
   position: relative;
